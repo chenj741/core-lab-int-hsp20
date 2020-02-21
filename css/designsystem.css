@@ -1,0 +1,88 @@
+/*font by https://www.behance.net/danibydani*/
+
+/*
+@font-face {
+    font-family: 'soriasoria';
+    src: url('soria-font-webfont.woff2') format('woff2'),
+         url('soria-font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; 
+    }
+*/
+
+
+.container{
+
+display: grid;
+grid-template-columns: repeat(20, 1fr);
+grid-template-rows: repeat(20, 100px);
+grid-column-gap: 7px;
+grid-row-gap: 7px;
+} 
+
+
+
+.one{
+grid-column: 2 / 12;
+grid-row: 2 / 6;
+border: 2px solid black;
+}
+
+
+.two{
+grid-column: 13 / 19;
+grid-row: 3 / 9;
+border: 2px solid black;
+color:black;
+}
+
+.three{
+grid-column: 7 / 12;
+grid-row: 7 / 14;
+border: 2px solid black;
+}
+
+.four{
+	grid-column: 2 / 6;
+	grid-row: 7 / 8;
+	background-color:#0D0D0D;
+	color:white;
+}
+
+.five{
+	grid-area: 8 / 2 / 12 / 3;
+	background-color:#F20505;
+	color:white;
+}
+
+.six{
+	grid-area: 8 / 3 / 11 / 4;
+	background-color:#F250B9;
+	color:white;
+}
+
+.seven{
+	grid-area: 8 / 4 / 10 / 5;
+	background-color:#0D05F2;
+	color:white;
+}
+
+.eight{
+	grid-area: 8 / 5 / 9 / 6;
+	background-color:#F2C84B;
+	color:white;
+}
+
+h1 h2, h3, h4, h5 {
+	   font-family: 'soriasoria';
+    src: url('soria-font-webfont.woff2') format('woff2'),
+         url('soria-font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; 
+    padding: 10px;
+}
+
+p{
+font-family: ;
+}
+
