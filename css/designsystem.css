@@ -1,21 +1,25 @@
 /*font by https://www.behance.net/danibydani*/
-
 /*
+
 @font-face {
     font-family: 'soriasoria';
     src: url('soria-font-webfont.woff2') format('woff2'),
          url('soria-font-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal; 
-    }
-*/
+    }*/
 
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html,body{
+	font-family: 'Poppins';
+}
 
 .container{
 
 display: grid;
 grid-template-columns: repeat(20, 1fr);
-grid-template-rows: repeat(20, 100px);
+grid-template-rows: repeat(20, 200px); /*make this minimum */
 grid-column-gap: 7px;
 grid-row-gap: 7px;
 } 
@@ -25,64 +29,82 @@ grid-row-gap: 7px;
 .one{
 grid-column: 2 / 12;
 grid-row: 2 / 6;
-border: 2px solid black;
+
 }
 
 
 .two{
 grid-column: 13 / 19;
-grid-row: 3 / 9;
-border: 2px solid black;
-color:black;
+grid-row: 1 / 9;
+
+
 }
 
 .three{
 grid-column: 7 / 12;
 grid-row: 7 / 14;
-border: 2px solid black;
+
 }
 
 .four{
-	grid-column: 2 / 6;
-	grid-row: 7 / 8;
+	grid-column: 8 / 12;
+	grid-row: 1 / 7;
 	background-color:#0D0D0D;
 	color:white;
 }
 
 .five{
-	grid-area: 8 / 2 / 12 / 3;
+	grid-area: 1 / 8 / 5 / 9;
 	background-color:#F20505;
 	color:white;
 }
 
 .six{
-	grid-area: 8 / 3 / 11 / 4;
+	grid-area: 2 / 9 / 5 / 10;
 	background-color:#F250B9;
 	color:white;
 }
 
 .seven{
-	grid-area: 8 / 4 / 10 / 5;
+	grid-area: 3 / 10 / 4 / 11;
 	background-color:#0D05F2;
 	color:white;
 }
 
 .eight{
-	grid-area: 8 / 5 / 9 / 6;
+	grid-area: 3 / 11 / 4 / 12;
 	background-color:#F2C84B;
 	color:white;
 }
 
-h1 h2, h3, h4, h5 {
-	   font-family: 'soriasoria';
-    src: url('soria-font-webfont.woff2') format('woff2'),
-         url('soria-font-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal; 
-    padding: 10px;
+h1{
+
+font-size: 5.653em;
+	} 
+
+h2{
+
+font-size: 3.998em;
+	} 
+
+h3{
+
+font-size: 2.827em;
+	}
+
+h4{
+
+font-size: 1.999em;
+	} 
+
+h5 {
+
+font-size: 1.414em;
 }
 
 p{
-font-family: ;
+
+
+
 }
 
