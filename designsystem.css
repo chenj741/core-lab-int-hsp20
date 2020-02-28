@@ -3,6 +3,7 @@
 body{
 	margin: 0;
 	font-family: 'Poppins';
+	background-color:#F2C84B;
 }
 
 .container{
@@ -15,14 +16,14 @@ body{
 
 /*auto-fit vs auto-fill. auto-fit will stretch it to the size of the browser. Auto-fill will make new columns */
 	
-/*@keyframes skewbody {
+@keyframes skewbody {
 	0% {	transform: perspective(1000px) rotateY(10deg)}
 	40%{ transform: perspective(1000px) rotateY(-20deg) }
 	80% {  transform: perspective(1000px) rotateY(2deg)}
 	90% {transform: perspective(1000px) rotateY(-1deg)}
 	93% {transform: perspective(1000px) rotateY(1deg)}
 	100% { 	transform: perspective(1000px) }
-}*/
+}
 
 
 .span-1{
@@ -198,6 +199,7 @@ font-size: 1.414em;
 		padding: 2em;
 	 	  box-shadow: 10px 10px inset;
 	 	  border: 2px solid;
+	 	  background-color: white;
 
 }
 		p{
