@@ -1,13 +1,4 @@
-/*font by https://www.behance.net/danibydani*/
-/*
 
-@font-face {
-    font-family: 'soriasoria';
-    src: url('soria-font-webfont.woff2') format('woff2'),
-         url('soria-font-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal; 
-    }*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
@@ -26,53 +17,56 @@ grid-row-gap: 7px;
 
 
 
-.one{
+
+
+.logo{
 grid-column: 2 / 12;
 grid-row: 2 / 6;
 
 }
 
 
-.two{
+.style-section{
 grid-column: 13 / 19;
 grid-row: 1 / 9;
 
 
 }
 
-.three{
+.components-section{
 grid-column: 7 / 12;
 grid-row: 7 / 14;
+background-color: ;
 
 }
 
-.four{
-	grid-column: 8 / 12;
-	grid-row: 1 / 7;
+.color-1{
+	grid-column: 7 / 8;
+	grid-row: 1 / 5;
 	background-color:#0D0D0D;
 	color:white;
 }
 
-.five{
-	grid-area: 1 / 8 / 5 / 9;
+.color-2{
+	grid-area: 1 / 8 / 4 / 9;
 	background-color:#F20505;
 	color:white;
 }
 
-.six{
-	grid-area: 2 / 9 / 5 / 10;
+.color-3{
+	grid-area: 1 / 9 / 4 / 10;
 	background-color:#F250B9;
 	color:white;
 }
 
-.seven{
-	grid-area: 3 / 10 / 4 / 11;
+.color-4{
+	grid-area: 1 / 10 / 3 / 11;
 	background-color:#0D05F2;
 	color:white;
 }
 
-.eight{
-	grid-area: 3 / 11 / 4 / 12;
+.color-5{
+	grid-area: 1 / 11 / 3 / 12;
 	background-color:#F2C84B;
 	color:white;
 }
@@ -103,7 +97,6 @@ font-size: 1.414em;
 }
 
 p{
-
 
 
 }
