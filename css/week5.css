@@ -35,6 +35,10 @@ body{
 	grid-column: 2 / -2;
 }
 
+.span-5{
+	grid-column: 2 /-2;
+}
+
 .loady{
 	display: flex;
 
@@ -284,3 +288,40 @@ p{
 	font-size:0.707em
 }
 }
+
+
+@media (max-width: 320px) {
+	.container{
+		display:flex;
+		flex-direction: column;
+	}
+	h1{
+
+font-size: 1.414em;	
+	} 
+
+h2{
+
+font-size: 1em;
+	} 
+
+h3{
+
+font-size: 1em;
+	}
+
+h4{
+
+font-size: 0.707em;
+	} 
+
+h5 {
+
+font-size: 0.707em;
+}
+
+p{
+	font-size:0.707em
+}
+}
+
