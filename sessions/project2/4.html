@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<script type="text/javascript" async="" src="New%20York%20State%20Voter%20Registration%20Form_files/ga.js"></script><script src="New%20York%20State%20Voter%20Registration%20Form_files/access.js" type="text/javascript"></script>
+
+<title>New York State Voter Registration Form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-FRAME-OPTIONS" content="SAMEORIGIN">
+<meta name="keywords" content="Voter Registration Form">
+<meta name="description" content="Voter Registration Form - English">
+<meta name="googlebot" content="noarchive">
+<meta name="robots" content="noarchive">
+
+  <script src="New%20York%20State%20Voter%20Registration%20Form_files/jquery-3.js" type="text/javascript"></script>
+  <script src="New%20York%20State%20Voter%20Registration%20Form_files/jquery.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("#sign-up").validate({
+
+		errorPlacement: function(error, element) {
+				error.appendTo("label[for="+$(element).attr('id')+"]");
+		},
+		errorElement: "em"
+		
+	});
+	// re-enable HTML5 native validation and stop jquery from handeling it! they changed this to be novalidate by default and I DO want to use HTML5 validation first then try jquery
+    $('form').removeAttr('novalidate');
+  });
+  </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4287801-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<link rel="stylesheet" type="text/css" href="../../css/project2.css">
+</head>
+<body>
+	<div class="container">
+	<div class="header">
+
+<h1>New York State Voter Registration Form</h1></div>
+<div class="four-info-one">
+<h3>(Optional) Register to donate your organs and tissues</h3>
+
+<p>If you would like to be an organ and tissue donor upon your death, you may enroll in the NYS  <em>Donate Life™</em>
+ Registry online at www.donatelife.ny.gov or provide your name and 
+address below. You will receive a confirmation email or letter, which 
+will also provide you an opportunity to limit your donation.</p>
+</div>
+
+<div class="four-info-two">
+<p>If you also choose to complete and sign the organ donation portion of this form, you will be certifying that you are:</p>
+
+<ul>
+    <li>16 years of age or older;</li>
+    <li>consenting to donate all of your organs and tissues for transplantation, research, or both;</li>
+    <li>authorizing the Board of Elections to provide your name and identifying information to NYS Donate Life Registry for enrollment;</li>
+    <li>and authorizing the Registry to allow access to this information
+ to federally regulated organ procurement organizations and NYS-licensed
+ tissue and eye banks and othes approved by the NYS Commissioner of 
+Health upon your death.</li>
+</ul>
+</div>
+<div class="four-form-one">
+<fieldset>
+<legend>Your name</legend>
+<br>
+<label for="organ_donation_first_name">First name </label>
+<input aria-required="false" type="text" name="OFName" id="organ_donation_first_name">
+<br><br>
+<label for="organ_donation_middle_initial">Middle Initial </label>
+<input aria-required="false" type="text" name="OMI" id="organ_donation_middle_initial" size="5">
+<br><br>
+<label for="organ_donation_last_name">Last name </label>
+<input aria-required="false" type="text" name="OLastName" id="organ_donation_last_name">
+<br><br>
+<label for="organ_donation_suffix">Suffix </label>
+<input aria-required="false" type="text" name="OSuffix" id="organ_donation_suffix" size="5">
+</fieldset>
+<br><br>
+
+<fieldset>
+<legend>Gender</legend>
+<br>
+<input aria-required="false" type="radio" name="OGender" id="OMale" value="Male">
+<label for="OMale" class="inline">Male </label>
+<br><br>
+<input aria-required="false" type="radio" name="OGender" id="OFemale" value="Female">
+<label for="OFemale" class="inline">Female </label>
+</fieldset>
+</div>
+
+<div class="four-form-two">
+<fieldset>
+<legend>Date of Birth</legend>
+<br>
+<label for="od_birth_month">Birth Month  </label>
+<input aria-required="false" aria-describedby="od_birth_month_desc" type="number" min="1" max="12" step="1" name="OBirthMonth" id="od_birth_month" minlength="2" maxlength="2">
+<span id="od_birth_month_desc" class="desc">Two digit number representing the month you were born.</span>
+<br><br>
+<label for="od_birth_day">Birth Day  </label>
+<input aria-required="false" aria-describedby="od_birth_day_desc" type="number" min="1" max="31" step="1" name="OBirthDay" id="od_birth_day" minlength="2" maxlength="2">
+<span id="od_birth_day_desc" class="desc">Two digit number representing the day you were born.</span>
+<br><br>
+<label for="od_birth_year">Birth Year  </label>
+<input aria-required="false" aria-describedby="od_birth_year_desc" type="number" min="1900" max="2016" step="1" name="OBirthYear" id="od_birth_year" minlength="4" maxlength="4">
+<span id="od_birth_year_desc" class="desc">Four digit number representing the year you were born.</span>
+</fieldset>
+<br><br>
+<fieldset>
+<legend>Eye color</legend>
+<br>
+<label for="Eyecolor">Please specify your eye color </label>
+<input aria-required="false" type="text" name="EyeColor" id="Eyecolor">
+</fieldset>
+
+</div>
+
+<div class="four-form-three">
+<fieldset>
+<legend>Height information</legend>
+<br>
+Please specify your height in feet and inches below.
+<br><br>
+<input aria-required="false" type="number" min="0" max="8" maxlength="1" name="OHeightFeet" id="organ_donation_height_feet"> 
+<label for="organ_donation_height_feet" class="inline">Feet </label>
+<br><br>
+<input aria-required="false" type="number" min="0" max="11" maxlength="2" name="OHeightInches" id="organ_donation_height_inches"> 
+<label for="organ_donation_height_inches" class="inline">Inches </label>
+</fieldset>
+<br><br>
+<fieldset>
+<legend>Your address</legend>
+<br>
+<label for="organ_donation_Address">Address </label>
+<input aria-required="false" type="text" name="OAddress" id="organ_donation_Address">
+<br><br>
+<label for="organ_donation_Address_Apartment_Number">Apartment Number </label>
+<input aria-required="false" type="text" name="OApt" id="organ_donation_Address_Apartment_Number">
+<br><br>
+<label for="organ_donation_Address_City">City </label>
+<input aria-required="false" type="text" name="City" id="organ_donation_Address_City">
+<br><br>
+<label for="organ_donation_Address_Zip">Zip Code </label>
+<input type="number" aria-required="false" aria-describedby="d_address_zip_desc" minlength="5" maxlength="5" name="OZip" id="organ_donation_Address_Zip">
+<span id="d_address_zip_desc" class="desc">Five digits only.</span>
+</fieldset>
+</div>
+
+<div class="four-form-four">  
+<fieldset>
+<legend>Identification information</legend>
+<br><br>
+<label for="OEmail">Email Address </label>
+<input aria-required="false" type="email" name="OEmail" id="OEmail">
+<br><br>
+<label for="ODMV_ID_NYC#">DMV or ID NYC#</label>
+<input aria-required="false" type="number" name="ODMV_ID_NYC#" id="ODMV_ID_NYC#"> 
+</fieldset>
+</div>
+
+<div class="navigation">
+   <div class="navigation-options"> <input class="required" type="submit" name="submit" id="submit" onclick="myFunction()"> Check for Errors and Download Completed Voter Registration Form
+</div>
+<a href="2.html"><div class="navigation-options">Previous</div></a>
+<a href="1.html"><div class="navigation-options">First</div></a>
+</div>
+
+
+<div class="footer">
+  <h3>Questions?</h3>
+
+<p>Call your County Board of Elections listed below or 1-800-FOR-VOTE(TDD/TTY Dial 711)</p>
+
+<p>Find answers or tools on our website www.elections.ny.gov</p>
+
+<h2>It is a crime to procure a false registration or to furnish false information to the Board of Elections.</h2>
+</div>
+</div>
+
+
+</body>
+
+</html>

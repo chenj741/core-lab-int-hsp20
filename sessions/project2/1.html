@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<script type="text/javascript" async="" src="New%20York%20State%20Voter%20Registration%20Form_files/ga.js"></script><script src="New%20York%20State%20Voter%20Registration%20Form_files/access.js" type="text/javascript"></script>
+
+<title>New York State Voter Registration Form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-FRAME-OPTIONS" content="SAMEORIGIN">
+<meta name="keywords" content="Voter Registration Form">
+<meta name="description" content="Voter Registration Form - English">
+<meta name="googlebot" content="noarchive">
+<meta name="robots" content="noarchive">
+
+  <script src="New%20York%20State%20Voter%20Registration%20Form_files/jquery-3.js" type="text/javascript"></script>
+  <script src="New%20York%20State%20Voter%20Registration%20Form_files/jquery.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("#sign-up").validate({
+
+		errorPlacement: function(error, element) {
+				error.appendTo("label[for="+$(element).attr('id')+"]");
+		},
+		errorElement: "em"
+		
+	});
+	// re-enable HTML5 native validation and stop jquery from handeling it! they changed this to be novalidate by default and I DO want to use HTML5 validation first then try jquery
+    $('form').removeAttr('novalidate');
+  });
+  </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4287801-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="../../css/project2.css">
+
+</head>
+
+
+<body>
+
+<div class="container"> 
+
+<div class="header">
+<h1>New York State Voter Registration Form</h1>
+</div>
+
+<div class="main">
+   <a href="2.html"> <div class="main-options">
+Register to Vote
+</div></a>
+
+<a href="2.html">
+<div class="main-options">
+Change the name or address on your voter registration</div></a>
+
+<a href="2.html">
+<div class="main-options">
+Become a member of a political party</div></a>
+
+<a href="2.html">
+<div class="main-options">
+Change your party membership</div></a>
+
+</div>
+
+<div class="footer">
+<h3>Questions?</h3>
+
+<p>Call your County Board of Elections listed below or 1-800-FOR-VOTE(TDD/TTY Dial 711)</p>
+
+<p>Find answers or tools on our website www.elections.ny.gov</p>
+
+<h2>It is a crime to procure a false registration or to furnish false information to the Board of Elections.</h2>
+</div>
+</div>
+</body></html>
