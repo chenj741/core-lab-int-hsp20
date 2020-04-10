@@ -4,18 +4,50 @@
 	<title>
 		Design System
 	</title>
-	<link rel="stylesheet" type="text/css" href="../css/week6.css">
+	<link rel="stylesheet" type="text/css" href="../css/week11.css">
 </head>
 <body>
 	<div class ="container">
-		<div class="quote span-1">
-			<span><h1>Oops!</h1></span>
-			<p>Oops! is a playful design system that offers easy readability and flexibility in color choices.</p>
-			
+		<div class="quote span-1" id="change">
+			<span><h1 class="header">Oops!</h1></span>
+			<p>Oops! is a playful design system that offers easy readability and flexibility in color choices.
+
+			 <div>
+        <label>Change Background</label>
+        <button type="button" onclick="changeBodyBg('#0D0D0D');">Deep Black</button>
+        <button type="button" onclick="changeBodyBg('#F20505');">Artificial Red</button>
+        <button type="button" onclick="changeBodyBg('#F250B9');">Fabric Pink</button>
+        <button type="button" onclick="changeBodyBg('#0D05F2');">Interface Blue</button>
+        <button type="button" onclick="changeBodyBg('#F2C84B');">Yam Yellow</button>
+        <button type="button" onclick="changeSectionBG('#F2C84B');">RESET</button>
+    </div></p>
+<br>
+		 <div>
+        <label>Change Section Background</label>
+        <button type="button" onclick="changeSectionBG('#0D0D0D');">Deep Black</button>
+        <button type="button" onclick="changeSectionBG('#F20505');">Artificial Red</button>
+        <button type="button" onclick="changeSectionBG('#F250B9');">Fabric Pink</button>
+        <button type="button" onclick="changeSectionBG('#0D05F2');">Interface Blue</button>
+        <button type="button" onclick="changeSectionBG('#F2C84B');">Yam Yellow</button>
+        <button type="button" onclick="changeSectionBG('#FFF');">RESET</button>
+
+    </div>	
+<br>
+     <div>
+        <label>Change Section Background</label>
+        <button type="button" onclick="changeHeaderColor('#0D0D0D');">Deep Black</button>
+        <button type="button" onclick="changeHeaderColor('#F20505');">Artificial Red</button>
+        <button type="button" onclick="changeHeaderColor('#F250B9');">Fabric Pink</button>
+        <button type="button" onclick="changeHeaderColor('#0D05F2');">Interface Blue</button>
+        <button type="button" onclick="changeHeaderColor('#F2C84B');">Yam Yellow</button>
+        <button type="button" onclick="changeHeaderColor('#0D0D0D');">RESET</button>
+
+    </div>
+
 	</div>
 
 <div class="quote span-2">
-			<span><h4> Typography Styles </h4></span>
+			<span><h4 class="header"> Typography Styles </h4></span>
 			 <h1>H1 Headline</h1>
 <h2>H2 Headline</h2>
 <h3>H3 Headline</h3>
@@ -32,7 +64,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 	<div class="quote span-3">
 
-			<span><h4> Colors </h4> </span>
+			<span><h4 class="header"> Colors </h4> </span>
 			<div class="colors">
 
 			<div class="color-1">
@@ -52,7 +84,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
 </div>
 
-	<span><h4> Components </h4></span>
+	<span><h4 class="header"> Components </h4></span>
 			<p> 
 
 				<h5>Loading Icon</h5>
@@ -100,7 +132,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			
 
 			<div class="quote span-4">
-		<span><h4> Design Patterns </h4></span>
+		<span><h4 class="header"> Design Patterns </h4></span>
 		<div>	
 <h5> Profile </h5>
 
@@ -128,7 +160,7 @@ consequat.<span id="dots">...</span><span id="more">erisque enim ligula venenati
 
 
 			<div class="quote span-5">
-			<span><h4> Content </h4></span>
+			<span><h4 class="header"> Content </h4></span>
 			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -140,7 +172,7 @@ consequat.<span id="dots">...</span><span id="more">erisque enim ligula venenati
 
 
 	<div class="quote span-6">
-			<span><h4> Layout </h4></span>
+			<span><h4 class="header"> Layout </h4></span>
 			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -150,7 +182,7 @@ consequat.<span id="dots">...</span><span id="more">erisque enim ligula venenati
 	</div>
 
 <div class="quote span-7">
-			<span><h4> Usability </h4></span>
+			<span><h4 class="header"> Usability </h4></span>
 			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -159,7 +191,7 @@ consequat.<span id="dots">...</span><span id="more">erisque enim ligula venenati
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
 <div class="quote span-8">
-			<span><h4> Adjustments </h4></span>
+			<span><h4 class="header"> Adjustments </h4></span>
 			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -171,7 +203,8 @@ consequat.<span id="dots">...</span><span id="more">erisque enim ligula venenati
 
 </body>
 
-</div>
+ <script type="text/javascript" src="week11.js"></script>
+
 <script type="text/javascript">function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
