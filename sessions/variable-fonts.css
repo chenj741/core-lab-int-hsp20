@@ -1,21 +1,24 @@
 /* Load the variable font */
 @font-face {
-  font-family: 'Roboto VF';
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/57225/Roboto-VF.woff2') format('woff2-variations');
+  font-family: 'TINY5x3GX';
+  src: url('TINY5x3GX.ttf') format('truetype');
   font-stretch: 75% 100%;
   font-style: oblique 0deg 12deg;
-  font-weight: 100 900;
+  font-weight: 20 240;
 }
 
 :root {
-  --text-weight: 500;
+  --text-weight: 100;
   --text-width: 100;
   --text-slant: 0;
 }
 
 html {
+  min-height: 100%;
   box-sizing: border-box;
-  font-family: "Roboto VF", "Roboto", sans-serif;
+  font-family: "TINY5x3GX", sans-serif;
+  background: rgb(217,184,184);
+  background: linear-gradient(0deg, rgba(217,184,184,1) 0%, rgba(217,115,142,1) 100%);
 }
 
 *, *:before, *:after {
@@ -27,10 +30,12 @@ body {
 }
 
 .container {
-  font-family: "Roboto VF", "Roboto", sans-serif;  margin: 0 auto;
+  color: #419BBF;
+  font-family: "TINY5x3GX", sans-serif;  margin: 0 auto;
   max-width: 60rem;
-  padding: 3rem;
+  padding: 5rem;
   text-align: left;
+  position:relative;
 }
 
 .demo-text {
@@ -43,7 +48,7 @@ body {
 }
 
 .demo-text-p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-stretch: var(--text-width);
   font-style: oblique var(--text-slant);
   font-weight: var(--text-weight);
@@ -84,7 +89,7 @@ body {
   width: 100%;
   height: 1rem;
   border-radius: .25rem;
-  background: #dee7ec;
+  background: #D9B8B8;
   outline: none;
 }
 
@@ -102,7 +107,7 @@ body {
   width: 1.75rem;
   height: 1.75rem;
   border-radius: 50%;
-  background: #456bd9;
+  background:#419BBF;
   cursor: pointer;
 }
 
@@ -115,18 +120,34 @@ body {
 }
 
 .button {
-  background: #fff;
-  border: 3px solid #dee7ec;
+  background: #D9738E;
   border-radius: 6px;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 400;
+  font-family: "TINY5x3GX", sans-serif;
   opacity: 1;
   padding: .25rem .75rem;
   transition: background ease-in .2s;
+  color: #419BBF;
 }
 
 .button:hover,
 .button:focus {
-  background: #eaf0f3;
+  background: #D9B8B8;
 }
+
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
