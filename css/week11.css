@@ -75,7 +75,6 @@ body{
 
 
 #profile-block{
-margin-left: 8em;	
 background-color:#F250B9;
 padding: 1em;
 width: 50%;
@@ -83,8 +82,8 @@ width: 50%;
 
 #profile-photo{
 float:left;
-height:100px;
-width:100px;
+height:10%;
+width:10%;
 margin-top: 0px;
 border: 14px solid #F2C84B;
 }
@@ -100,8 +99,8 @@ border: 14px solid #F2C84B;
 
 
 #blog-image{
-	width:400px; 
-	height: 468px;
+	width:100%; 
+	height: 100%;
 
 }
 
